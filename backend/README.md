@@ -1,6 +1,6 @@
 # Roxiler Store Rating System - Backend API
 
-Production-ready Node.js, Express.js, and MySQL backend for the Roxiler Systems Full Stack Intern Coding Assessment.
+Node.js, Express.js, and MySQL backend for the Roxiler Systems Full Stack Intern Coding Assessment.
 
 ## 🚀 Features
 
@@ -59,7 +59,6 @@ backend/
 │   ├── app.js             # Express application setup
 │   └── server.js          # Server entry point
 ├── .env.example
-├── .env
 ├── package.json
 ├── test-api.js            # Automated E2E verification test suite
 └── README.md
@@ -87,7 +86,7 @@ DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=YourMySQLPassword
 DB_NAME=store_rating_db
-JWT_SECRET=roxiler_store_rating_secret_key_jwt_2026
+JWT_SECRET=your_secure_jwt_secret_here
 JWT_EXPIRES_IN=7d
 NODE_ENV=development
 ```
@@ -133,6 +132,7 @@ node test-api.js
 ---
 
 ## 🔑 Test Credentials
+These are demo credentials for the seeded local development database.
 
 The database comes pre-seeded with test accounts compliant with form validation rules (Name: 20-60 chars, Password: 8-16 chars with uppercase & special char):
 
